@@ -21,6 +21,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin: 0 auto;
+    padding: 0 15px;
 }
 .section{
     padding: 94px 0px;
@@ -515,6 +516,48 @@ ul{
 .social a:hover, .social a:focus{
    background-color: var(--blu);
 }
+.subscription{
+    width: 570px;
+    height: 86px;
+    display: flex;
+    margin-left: 93px;
+}
+.subscription-label{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.subscription-input{
+    width: 358px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #2F303A;;
+}
+.subscription-button{
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white);
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    fill: var(--white);
+}
 /*--------------Potrfolio-----------------*/
 
 .buttons{
@@ -580,6 +623,7 @@ ul{
     text-align: left;
 }
 .project{
+    max-width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;
 }
@@ -691,22 +735,84 @@ ul{
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
-/*my study-------------------------------------------------------------------------------
-background-image: linear-gradient(to right, #553c9a, #ee4b2b, #00c2cb, #ff7f50, #553c9a);
-background-size: 200%;
-background-position: -200%;
-header h1:hover {
-background-position: 200%;
-transition: all ease-in-out 2s;
-animation: animated--gradient 2s infinite alternate-reverse;
+
+
+
+
+
+.modal-form{
+    width: 528px;
+    height: 581px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #757575;
 }
-@keyframes animated-gradient {
-    to {
-        background-position: 200%;
-    }
+.modal-form p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #212121;
 }
-<p>Сторінка створена <time datetime="2022-09-20">20 вересня 2022 року</time>.</p>
-*/
-/* Колір фону Градієнт
-background: rgb(0, 0, 0);
-background: linear-gradient(90deg, rgba(47, 48, 58, 1) 0%, rgba(0, 75, 17, 1) 50%, rgba(55, 62, 0, 1) 100%);*/
+.modal-form a{
+    color: var(--blu);
+}
+.name-form {
+    width: 448px;
+    height: 40px;
+}
+
+.tel-form {
+    width: 448px;
+    height: 40px;
+}
+
+.email-form {
+    width: 448px;
+    height: 40px;
+}
+
+.comment-form {
+    width: 448px;
+    height: 120px;
+    text-align: start;
+    display: flex;
+    justify-content: flex-start;
+}
+.checkbox{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    padding-bottom: 40px;
+}
+
+.modal-form-button{
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white);
+}
+.modal-form-button:hover, .modal-form-button:focus{
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
