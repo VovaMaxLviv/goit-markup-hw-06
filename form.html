@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
-<body><header class="header">
+<body>
+<header class="header">
     <div class="container">
         <div class="header-left-site">
             <a href="index.html" title="My page" lang="en" class="webstudio"><span class="web">Web</span>Studio</a>
@@ -41,21 +42,50 @@
 <main>
     <section>
         <div class="container">
-        <form class="modal-form">
-            <p>Залиште свої дані, ми вам передзвоним</p>
-            <label for="name">Ім'я</label>
-            <input type="text" class="name-form" name="name"/>
-            <label for="tel">Телефон</label>
-            <input type="tel" class="tel-form" name="tel" id="tel" />
-            <label for="mail">Пошта</label>
-            <input type="email" class="email-form" name="mail" id="mail" />
-            <label for="comment">Коментар</label>
-            <input type="comment" class="comment-form" name="comment" id="comment" placeholder="Введіть текст"/>
-            <label for="checkbox" class="checkbox">
-            <input type="checkbox" class="checkbox-form" name="checkbox" id="checkbox">Погоджуюся з розсилкою та приймаю <span><a href="#">Умови
-                        договору</a></span>
-            </label>
-            <button type="submit" class="modal-form-button">Відправити</button>
+        <form class="modal-form" autocomplete="on">
+            <b>Залиште свої дані, ми вам передзвоним</b>
+            <div class="form-field">
+                <label for="name">Ім'я</label>
+                <input type="text" class="name-form" name="name" autofocus />
+                <span class="name-form-icon">
+                    <svg width="12" height="12">
+                        <use href="./images/icomoon1/symbol-defs.svg#icon-man-1"></use>
+                    </svg>
+                </span>
+            </div>
+            <div class="form-field">
+                <label for="tel" class="form-input">Телефон</label>
+                <input type="tel" class="tel-form" name="tel" id="tel" />
+                <span class="tel-form-icon">
+                    <svg width="12" height="12">
+                        <use href="./images/icomoon1/symbol-defs.svg#icon-tel-1"></use>
+                    </svg>
+                </span>
+            </div>
+            <div class="form-field">
+                <label for="mail" class="form-input">Пошта</label>
+                <input type="email" class="email-form" name="mail" id="mail" />
+                <span class="email-form-icon">
+                    <svg width="12" height="12">
+                        <use href="./images/icomoon1/symbol-defs.svg#icon-mail-new-1"></use>
+                    </svg>
+                </span>
+            </div>
+            <div class="form-field">
+                <label for="comment">Коментар</label>
+                <textarea name="comment" id="comment" placeholder="Введіть текст"></textarea>
+            </div>            
+            <div class="form-field">
+                <label for="policy" class="checkbox">
+                    <input type="checkbox" class="checkbox-form" name="policy" id="policy">Погоджуюся з розсилкою та приймаю <span><a
+                            href="#">Умови
+                            договору</a></span>
+                </label>
+            </div>            
+            <div class="form-field">
+                <button type="submit" class="modal-form-button">Відправити</button>
+            </div>
+            
         </form>
         </div>
     </section>
