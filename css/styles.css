@@ -808,6 +808,9 @@ ul{
     border-radius: 4px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.name-form:focus-within, .tel-form:focus-within, .email-form:focus-within{
+    border: 1px solid #2196F3;
+}
 .name-form:focus , .tel-form:focus , .email-form:focus ,.name-form:hover,
 .tel-form:hover,
 .email-form:hover,textarea:hover, textarea:focus{
