@@ -557,6 +557,7 @@ ul{
     justify-content: center;
     align-items: center;
     text-align: center;
+    cursor: pointer;
     letter-spacing: 0.06em;
     color: var(--white);
     background: #2196F3;
@@ -564,6 +565,13 @@ ul{
     border-radius: 4px;
     fill: var(--white);
     margin-left: 12px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.subscription-button-submit{
+    margin-left: 10px;
+}
+.subscription-button:hover, .subscription-button:focus{
+    background-color: #188CE8;
 }
 /*--------------Potrfolio-----------------*/
 
@@ -742,7 +750,6 @@ ul{
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
-
 .modal-form{
     width: 528px;
     height: 581px;
@@ -781,16 +788,19 @@ ul{
 .name-form {
     width: 448px;
     height: 40px;
+    cursor: pointer;
 }
 
 .tel-form {
     width: 448px;
     height: 40px;
+    cursor: pointer;
 }
 
 .email-form {
     width: 448px;
     height: 40px;
+    cursor: pointer;
 }
 
 .comment-form {
@@ -823,6 +833,7 @@ ul{
     justify-content: center;
     align-items: center;
     text-align: center;
+    cursor: pointer;
     letter-spacing: 0.06em;
     color: var(--white);
     margin: 0 125px 0;
