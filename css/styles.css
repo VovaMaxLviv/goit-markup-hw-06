@@ -769,11 +769,12 @@ ul{
 .form-field:nth-last-child(1){
     margin-bottom: 0;
 }
-.modal-form b{
+.modal-form h2{
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
     display: flex;
+    justify-content: center;
     text-align: center;
     align-items: center;
     letter-spacing: 0.03em;
