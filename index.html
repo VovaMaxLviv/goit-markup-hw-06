@@ -8,7 +8,7 @@
     <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
@@ -47,48 +47,42 @@
                     <div class="modal">
                         <form class="modal-form" autocomplete="on">
                             <h2>Залиште свої дані, ми вам передзвоним</h2>
-                            <div class="form-field">
-                                <label for="name">Ім'я</label>
-                                <input type="text" class="name-form" name="name" autofocus />
-                                <span class="name-form-icon">
-                                    <svg width="12" height="12">
+                                <label for="name" class="modal-label">Ім'я</label>
+                                    <span class="modal-input-wrapper">
+                                    <input type="text" class="modal-input" name="name" autofocus />
+                                    <svg width="12" height="12" class="modal-icon">
                                         <use href="./images/icomoon1/symbol-defs.svg#icon-man-1"></use>
                                     </svg>
-                                </span>
-                            </div>
-                            <div class="form-field">
-                                <label for="tel" class="form-input">Телефон</label>
-                                <input type="tel" class="tel-form" name="tel" id="tel" />
-                                <span class="tel-form-icon">
-                                    <svg width="12" height="12">
+                                    </span>
+                                <label for="tel" class="modal-label">Телефон</label>
+                                    <span class="modal-input-wrapper">
+                                    <input type="tel" class="modal-input" name="tel" id="tel" />
+                                    <svg width="12" height="12" class="modal-icon">
                                         <use href="./images/icomoon1/symbol-defs.svg#icon-tel-1"></use>
                                     </svg>
-                                </span>
-                            </div>
-                            <div class="form-field">
-                                <label for="mail" class="form-input">Пошта</label>
-                                <input type="email" class="email-form" name="mail" id="mail" />
-                                <span class="email-form-icon">
-                                    <svg width="12" height="12">
+                                    </span>
+                                <label for="mail" class="modal-label">Пошта</label>
+                                    <span class="modal-input-wrapper">
+                                    <input type="email" class="modal-input" name="mail" id="mail" />
+                                    <svg width="12" height="12" class="modal-icon">
                                         <use href="./images/icomoon1/symbol-defs.svg#icon-mail-new-1"></use>
                                     </svg>
-                                </span>
-                            </div>
-                            <div class="form-field">
-                                <label for="comment">Коментар</label>
-                                <textarea name="comment" id="comment" placeholder="Введіть текст"></textarea>
-                            </div>
-                            <div class="form-field">
+                                    </span>
+                                <label for="comment" class="modal-label">Коментар</label>
+                                    <textarea name="comment" id="comment" placeholder="Введіть текст"></textarea>
                                 <label for="policy" class="checkbox">
-                                    <input type="checkbox" class="checkbox-form" name="policy" id="policy">Погоджуюся з розсилкою та приймаю
+                                    <span class="modal-input-wrapper"></span>
+                                    <input type="checkbox" class="checkbox-input" name="policy" id="policy">
+                                    <div class="checkbox-custom-box">
+                                        <svg width="11" height="8">
+                                            <use href="./images/icomoon1/symbol-defs.svg#icon-V-1"></use>
+                                        </svg>
+                                    </div>
+                                    Погоджуюся з розсилкою та приймаю
                                     <span><a href="#">Умови
                                             договору</a></span>
                                 </label>
-                            </div>
-                            <div class="form-field">
                                 <button type="submit" class="modal-form-button">Відправити</button>
-                            </div>
-                        
                         </form>
                         <button class="close" data-modal-close></button>
                     </div>
