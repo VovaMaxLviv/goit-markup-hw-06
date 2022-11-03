@@ -780,7 +780,7 @@ ul{
     text-align: center;
     align-items: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-color);
 }
 .modal-form a{
     color: var(--blu);
