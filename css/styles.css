@@ -784,6 +784,8 @@ ul{
 }
 .modal-form a{
     color: var(--blu);
+    margin-left: 5px;
+    text-decoration: underline;
 }
 .modal-label{
     display: flex;
