@@ -786,6 +786,7 @@ ul{
     color: var(--blu);
     margin-left: 5px;
     text-decoration: underline;
+    
 }
 .modal-label{
     display: flex;
@@ -801,6 +802,10 @@ ul{
     display: block;
     margin-top: 4px;
     margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 
 .modal-input {
