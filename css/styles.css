@@ -101,7 +101,7 @@ ul{
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.headertext-info {
+.header-right-site {
     display: flex;
     justify-content: space-between;
     gap: 50px;
@@ -117,10 +117,10 @@ ul{
     fill: var(--blu);
 }
 
-.current {
+.active{
     color: var(--blu);
 }
-.current::after{
+.active::after{
     content: '';
     position: absolute;
     display:block;
