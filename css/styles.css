@@ -795,6 +795,7 @@ ul{
     flex-direction: column;
     text-align: left;
     align-items:flex-start;
+    cursor: pointer;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
