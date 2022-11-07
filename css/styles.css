@@ -725,6 +725,7 @@ ul{
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.2);
+    z-index: 101;
 }
 .backdrop.is-hidden {
     opacity: 0;
@@ -827,6 +828,7 @@ ul{
     position: absolute;
     left: 12px;
     top: 50%;
+    cursor: pointer;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -900,6 +902,7 @@ ul{
 }
 
 textarea{
+    display: block;
     width: 100%;;
     height: 120px;
     resize: none;
